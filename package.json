@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start-v2": "node v2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ceytek",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "express": "^4.17.3",
+    "prompt-sync": "^4.2.0",
+    "protypa": "^1.1.7",
+    "socket.io": "^4.4.1"
+  }
+}
