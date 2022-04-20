@@ -37,7 +37,7 @@ const protypa = require('protypa')
 
 
 while (true) {
-    /* Sorunun kullanılan formatta sorulup, cevabın işlenmemiş halinin input variable'ına burada kaydedilmesi gerekli */
+    /* Sorunun kullanılan formatta sorulup, cevabın işlenmemiş halinin input variable'ına burada kaydedilmesi gerekli. */
     const input = prompt('Merhaba!');
     if (input === "x") {
         process.exit();
